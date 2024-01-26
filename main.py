@@ -1,7 +1,6 @@
 import unittest
 
 class TestAddition(unittest.TestCase):
-    # added two tests
     def test_add_positive_numbers(self):
         self.assertEqual(2 + 2, 4)
 
